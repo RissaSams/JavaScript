@@ -1,0 +1,73 @@
+body {
+    background: url("../images/Butterfly\ Sails.jpg") top / cover no-repeat fixed;
+    color: black;
+    margin: 0px;
+    font: 100% verdana, sans-serif;
+}
+
+figure {
+    border: 5px double darkblue;
+    background-color: darkturquoise;
+    padding: 5px;
+    display: table;
+}
+
+.banner {
+    width: 20%;
+    height: 10%;
+}
+
+.quote {
+    font-weight: bold;
+    width: 35%;
+}
+
+.center-in-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-top: 120px;
+}
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 40px, 10px 30px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar-nav ul {
+    margin: 0px;
+    background-color: skyblue;
+    margin: 0px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+.navbar-nav a {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.showcase img {
+    width: 100%;
+}

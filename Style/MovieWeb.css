@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    background-image: url("../images/DC\ Marvel.jpg");
+    height: 140px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#header div {
+    text-decoration: underline;
+    font-family: Trade Winds;
+    font-size: 24pt;
+    color: whitesmoke;
+    align-self: center;
+    justify-self: center;
+}
+
+.navbar-primary ul {
+    margin: 0px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+}
+
+.navbar-primary ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    justify-self: center;
+}
+
+#main {
+    display: grid;
+}
+
+.movietype {
+    height: 1300px;
+}
+
+#dc {
+    background-image: url(../images/DC.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background: transparent url(../images/DC.png) round 0 0;
+}
+
+#marvel {
+    background-image: url(../images/Marvel.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background: transparent url(../images/Marvel.jpg) round 0 0;
+}
+
+#transformers {
+    background-image: url(../images/Transformers.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background: transparent url(../images/Transformers.jpg) round 0 0;
+}
+
+.movie {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.movie img {
+    float: left;
+    align-self: center;
+    justify-self: left;
+}
+
+.movie ul li {
+    font-family: Yeon Sung;
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: seashell;
+}
+
+h3{
+    color: goldenrod;
+}
+
+#footer {
+    text-align: center;
+    background-image: url("../images/DC\ Marvel.jpg");
+    height: 140px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.container-fluid {
+    text-decoration: underline;
+    font-family: Trade Winds;
+    font-size: 12pt;
+    color: red;
+    align-self: center;
+    justify-self: center;
+}

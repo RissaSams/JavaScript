@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+</head>
+
+<body>
+    <h1><b>Add a Movie</b></h1>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td><label for="txtTitle">Title:</label></td>
+                <td><input type="text" name="txtTitle" id="txtTitle"></td>
+            </tr>
+            <tr>
+                <td><label for="txtReleaseDate">Release Date:</label></td>
+                <td><input type="text" name="txtReleaseDate" id="txtReleaseDate"></td>
+            </tr>
+            <tr>
+                <td><label for="txtDirector">Director:</label></td>
+                <td><input type="text" name="txtDirector" id="txtDirector"></td>
+            </tr>
+            <tr>
+                <td><label for="ddlRating">Rating:</label></td>
+                <td><select name="ddlRating" is="ddlRating">
+                        <option value="Game">G</option>
+                        <option value="Game">PG</option>
+                        <option value="Game">PG-13</option>
+                        <option value="Game">R</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="nudRuntimeHours">Runtime Hours:</label></td>
+                <td><input type="number" name="nudRuntimeHours" min="0" max="5"></td>
+            </tr>
+            <tr>
+                <td><label for="txtMinutes">Minutes:</label></td>
+                <td><input type="text" name="txtMinutes" id="txtMinutes"></td>
+            </tr>
+            <tr>
+                <td><label for="txtPlot">Plot:</label></td>
+                <td><textarea name="txtPlot" id="txtPlot" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="fileToUpload">Upload Image:</label></td>
+                <td><input type="file" name="fileToUpload" id="fileToUpload"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

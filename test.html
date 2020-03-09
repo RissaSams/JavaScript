@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Test Code</title>
+    <style>
+        .classA {
+            border-radius: 20%;
+            height: 200px;
+            width: 200px;
+        }
+        .classB {
+            box-shadow: grey 5px 5px 8px;
+            height: 200px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body onload='getStarted()' onclick='addShadow()'>
+    <h1 id='first'></h1>
+</body>
+<script>
+    let h1 = document.getElementById('first');
+    h1.innerText = 'Rissa Wolfe';
+    h1.style.backgroundColor = 'aqua';
+    h1.style.color = 'darkgreen';
+    h1.className = 'classA';
+    let body = document.body;
+    body.style.backgroundColor = 'seagreen';
+
+    function addShadow() {
+        if (h1.classList.contains('classB'))
+            h1.classList.remove('classB');
+        else
+            h1.className += ' classB'
+    }
+</script>
+</html>
